@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.e.aula101220.MainActivity">
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/ic_teste1"
+        android:orderInCategory="100"
+        android:title="login"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="102"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exc"
+        android:icon="@drawable/ic_teste4"
+        android:orderInCategory="103"
+        android:title="Exc"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_alt"
+        android:icon="@drawable/ic_teste3"
+        android:orderInCategory="103"
+        android:title="Alt"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_teste2"
+        android:orderInCategory="103"
+        android:title="List"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cad"
+        android:icon="@drawable/ic_teste"
+        android:orderInCategory="101"
+        android:title="Cad"
+        app:showAsAction="always" />
+</menu>
